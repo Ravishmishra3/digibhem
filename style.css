@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(to top,rgba(92, 75, 75, 0.5)50%,rgba(11, 11, 6, 0.5)50%) ,url(hotel2.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #f2f2f2;
+  }
+
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fafbf9c4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(64, 41, 196, 0.1);
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+
+  .deluxx{
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(27, 13, 13);
+  }
+
+  .suitee{
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(10, 16, 8);
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="date"],
+  .form-group input[type="number"],
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #908989;
+  }
+
+  .form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    padding-right: 40px;
+    background: url("arrow.png") no-repeat right center / 15px 15px;
+  }
+
+  .form-group .checkbox {
+    margin-top: 5px;
+    display: inline-block;
+  }
+
+  .AC{
+    width:180px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+  }
+
+  .locker{
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    margin-left: 60px;
+  }
+  
+  .box{
+    margin-left: 60px;
+  }
+
+  .form-group .checkbox label {
+    font-weight: normal;
+  }
+
+  .form-group .checkbox input {
+    margin-right: 5px;
+  }
+
+  .form-group .amount {
+    font-weight: bold;
+  }
+
+  .form-group .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .form-group .button-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-group .button-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .register{
+    width:150px;
+    background-color: rgb(222, 62, 62);
+    color: rgb(252, 251, 251);
+    border: none;
+    border-radius: 12px;
+    padding: 12px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .register:active{
+    background-color: green;
+  }
